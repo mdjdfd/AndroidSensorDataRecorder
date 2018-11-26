@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.junaidfahad.arffrecorder.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/layout_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/text_accelerometer" />
+
+
+        <TextView
+            android:id="@+id/text_view_axis_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:text="x" />
+
+
+        <TextView
+            android:id="@+id/text_view_axis_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/colorWhite"
+            android:text="y" />
+
+
+        <TextView
+            android:id="@+id/text_view_axis_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:text="z" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/layout_margin">
+
+        <TextView
+            android:id="@+id/text_view_file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/text_filename" />
+
+        <EditText
+            android:id="@+id/edit_text_file_name"
+            android:text="accrecording.arff"
+            android:editable="false"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="@dimen/layout_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/layout_margin">
+
+        <TextView
+            android:id="@+id/text_view_recorder_running"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/text_recorder_running" />
+
+        <Button
+            android:id="@+id/button_recorder_on"
+            android:layout_width="@dimen/recorder_button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/text_recorder_on" />
+
+        <Button
+            android:id="@+id/button_recorder_off"
+            android:layout_width="@dimen/recorder_button_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/text_recorder_off" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ARFFRecorder</string>
+    <string name="text_accelerometer">Accelerometer :</string>
+    <string name="text_filename">Filename :</string>
+    <string name="text_recorder_running">Recorder Running :</string>
+    <string name="text_recorder_on">ON</string>
+    <string name="text_recorder_off">OFF</string>
+    <string name="text_recorder_on_notification">Recorder is On</string>
+    <string name="text_recorder_off_notification">Recorder is Off</string>
+    <string name="text_new_message_alert">New Message Alert!</string>
+    <string name="text_no_accelerometer_sensor">Device has no accelerometer sensor</string>
+    <string name="text_service_already_running">Service already running</string>
+    <string name="text_no_service_running">No Running Services</string>
+    <string name="text_attr_timestamp">timestamp</string>
+    <string name="text_attr_accelerationx">accelerationx</string>
+    <string name="text_attr_accelerationy">accelerationy</string>
+    <string name="text_attr_accelerationz">accelerationz</string>
+    <string name="text_attr_class_name">sysdev</string>
+
+</resources>
